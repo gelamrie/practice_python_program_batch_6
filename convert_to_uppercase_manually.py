@@ -2,6 +2,7 @@ lowercase_text = input("Enter a string/word: ") #Ask the user for a string
 uppercase_text = "" #Add a variable for uppercase text
 
 for character in lowercase_text: #Loop through each character in the string
-    #If the character if between "a" and "z", convert it to uppercase
+    if 'a' <= character <= 'z': #If the character if between "a" and "z", convert it to uppercase
+    uppercase_text += chr(ord(character) - 32) 
     #If not, add the the character as is
 #Print results
