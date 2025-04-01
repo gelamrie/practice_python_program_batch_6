@@ -1,5 +1,6 @@
 text_to_align = input("Enter a string/word: ") #Ask the user for a string
 desired_width = int(input("Enter total width: ")) #Ask the user for the total width
-#Calculate the spaces needed: total width - length of string
+
+spaces_needed = max(0, desired_width - len(text_to_align)) #Calculate the spaces needed: total width - length of string
 #Add spaces before the string
 #Display the result
