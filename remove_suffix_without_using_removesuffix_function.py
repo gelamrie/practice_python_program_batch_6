@@ -3,6 +3,6 @@ suffix_to_remove = input("Enter suffix to remove: ") #Ask the user for a suffix 
 
 #Check if the string end with the suffix
 if original_text.endswith(suffix_to_remove):
-    #If yes, remove the suffix by slicing
+    modified_text = original_text[:-len(suffix_to_remove)] #If yes, remove the suffix by slicing
     #If no, keep the strings unchanged
 #Display the results 
