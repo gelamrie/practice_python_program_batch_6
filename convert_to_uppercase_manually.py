@@ -6,4 +6,5 @@ for character in lowercase_text: #Loop through each character in the string
         uppercase_text += chr(ord(character) - 32) 
     else: 
         uppercase_text += character #If not, add the the character as is
-#Print results
+
+print("Uppercase string:", uppercase_text) #Print results
