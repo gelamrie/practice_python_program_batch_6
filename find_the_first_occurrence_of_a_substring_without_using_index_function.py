@@ -6,4 +6,5 @@ for index in range(len(search_text) - len(substring_to_find) + 1): #Checking for
     if search_text[index:index+len(substring_to_find)] == substring_to_find: 
        first_occurrence_index = index
        break #If there's a match, stop or break
-#Display the results
+
+print("First occurrence index:", first_occurrence_index if first_occurrence_index != -1 else "Not found") #Display the results
