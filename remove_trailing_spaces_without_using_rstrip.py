@@ -7,4 +7,4 @@ while trim_position >= 0 and user_text[trim_position] == ' ':
 
 #Slice the string up to the last non-space character
 trimmed_text = user_text[:trim_position + 1]
-#Print results 
+print("String without trailing spaces:", trimmed_text) #Print results 
