@@ -1,4 +1,4 @@
-input_text = input("Enter a string/word: ")#Ask user for a string
+input_text = input("Enter a string/word: ") #Ask user for a string
 all_lowercase = True #Assume that the string is all lowercase
 
 #Loop through each character
@@ -7,4 +7,4 @@ for character in input_text:
         all_lowercase = False
         break 
     
-#Print results
+print("Is the string all lowercase?", all_lowercase)#Print results
