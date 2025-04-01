@@ -3,5 +3,6 @@ trim_position = len(user_text) - 1 #Create a variable to track the last non-spac
 
 #To check for spaces, loop from the end of the string
 while trim_position >= 0 and user_text[trim_position] == ' ':
+    trim_position -= 1 
 #Slice the string up to the last non-space character
 #Print results 
