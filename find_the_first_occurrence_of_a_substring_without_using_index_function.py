@@ -3,5 +3,7 @@ substring_to_find = input("Enter substring: ")#Ask for a substring to find
 
 first_occurence_index = -1 
 for index in range(len(search_text) - len(substring_to_find) + 1): #Checking for the position of the substring by looping through the string
-#If there's a match, stop or break
+    if search_text[index:index+len(substring_to_find)] == substring_to_find: 
+       first_occurrence_index = index
+       break #If there's a match, stop or break
 #Display the results
