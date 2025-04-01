@@ -3,5 +3,8 @@ all_lowercase = True #Assume that the string is all lowercase
 
 #Loop through each character
 for character in input_text:
-    #If there is any detected character between 'A' and 'Z', change the assumption to False and break
+    if 'A' <= character <= 'Z': #If there is any detected character between 'A' and 'Z', change the assumption to False and break
+        all_lowercase = False
+        break 
+    
 #Print results
